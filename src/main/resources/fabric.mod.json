@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "gud_betterbookshelves",
+	"version": "${version}",
+	"name": "Better Chiseled Bookshelves",
+	"description": "Making chiseled bookshelves a little bit better.",
+	"authors": [
+		"gudenau"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "",
+	"icon": "assets/gud_betterbookshelves/icon.png",
+	"environment": "*",
+	"mixins": [
+		"gud_betterbookshelves.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

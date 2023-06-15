@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.gudenau.minecraft.betterbooksheves.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockEntityTypeMixin",
+    "BlocksMixin",
+    "ChiseledBookshelfBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
